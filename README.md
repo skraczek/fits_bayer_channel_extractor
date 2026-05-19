@@ -237,7 +237,7 @@ Error: BAYERPAT/COLORTYP not found or unsupported
 
 # Notes
 
-- Only 2D monochrome RAW FITS files are supported
+- Only 2D RAW FITS files are supported
 - Debayered RGB FITS files are not supported
 - Original files are never modified
 - FITS data is read using big-endian byte order as required by the FITS standard
