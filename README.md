@@ -66,19 +66,19 @@ Or simply place the script somewhere convenient.
 ## Basic Usage
 
 ```bash
-python3 extract_bayer.py /path/to/fits/files
+python3 rgbsplit_fits.py /path/to/fits/files
 ```
 
 You can also use:
 
 ```bash
-python3 extract_bayer.py "*.fits"
+python3 rgbsplit_fits.py "*.fits"
 ```
 
 Or launch without arguments:
 
 ```bash
-python3 extract_bayer.py
+python3 rgbsplit_fits.py
 ```
 
 The program will then ask for the input path interactively.
