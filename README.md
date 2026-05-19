@@ -1,6 +1,6 @@
 # FITS Bayer Channel Extractor
 
-A Python utility for extracting individual Bayer colour channels (`TR`, `TG`, `TB`) from monochrome RAW FITS astrophotography files while preserving the original FITS metadata and bit depth.
+A Python utility for extracting individual Bayer colour channels (`TR`, `TG`, `TB`) from monochrome RAW FITS files while preserving the original FITS metadata and bit depth.
 
 Supports common Bayer patterns:
 
