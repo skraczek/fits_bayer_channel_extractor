@@ -198,7 +198,7 @@ Most original metadata remains unchanged.
 ## Extract all channels from a folder
 
 ```bash
-python3 extract_bayer.py ./lights
+python3 rgbsplit_fits.py ./lights
 ```
 
 Select:
@@ -242,42 +242,11 @@ Error: BAYERPAT/COLORTYP not found or unsupported
 - Original files are never modified
 - FITS data is read using big-endian byte order as required by the FITS standard
 
----
-
-# License
-
-MIT License
-
-```text
-MIT License
-
-Copyright (c) 2026 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
-```
-
----
-
-# Possible Future Improvements
-
-- Multithreaded processing
-- Optional compression
-- CFA visualisation
-- Support for 64-bit FITS formats
-- Demosaicing modes
-- Command-line filter selection
-- Progress bar support
-
----
 
 # Example Command Session
 
 ```text
-$ python3 extract_bayer.py ./lights
+$ python3 rgbsplit_fits.py ./lights
 
 Which transformations do you want?
 Available: TR, TG, TB, ALL
