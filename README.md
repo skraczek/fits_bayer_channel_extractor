@@ -102,7 +102,7 @@ Examples:
 | `TR` | Extract red channel |
 | `TG` | Extract green channel |
 | `TB` | Extract blue channel |
-| `TR,TB` | Extract red and blue |
+| `TR,TG` | Extract red and green |
 | `ALL` | Extract all channels |
 
 ---
